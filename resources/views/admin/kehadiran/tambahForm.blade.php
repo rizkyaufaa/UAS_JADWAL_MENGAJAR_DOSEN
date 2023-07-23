@@ -8,14 +8,7 @@ Tambah Data
     <h1 class="h2">Dashboard Kehadiran</h1>
 
     <div class="btn-toolbar mb-2 mb-md-0">
-        <div class="btn-group me-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-        </div>
-        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-            <span data-feather="calendar" class="align-text-bottom"></span>
-            This week
-        </button>
+        
     </div>
 </div>
 <div>
@@ -24,30 +17,30 @@ Tambah Data
 <form action="{{route('kehadiran.saveKehadiran')}}" method="POST">
     @csrf
     <div class="form-group">
-        <label for="exampleInputEmail1">Nama Pengguna</label>
-        <select class="js-example-basic-single" name='user_id' aria-label="Default select example">
+        <label for="contohInputEmail1">Nama Pengguna</label>
+        <select class="js-contoh-basic-single" name='user_id' aria-label="Default select contoh">
             <option value="">Pilih Nama</option>
             @foreach($fetchUser as $user)
             <option value="{{$user->id}}">{{ $user->name }}</option>
             @endforeach
         </select>
-        <small id="emailHelp" class="form-text text-muted">example : Asrul Abdullah.</small>
+        <small id="emailHelp" class="form-text text-muted">contoh : Leonard</small>
     </div>
     <div class="form-group">
-        <label for="exampleInputEmail1">Jam Masuk</label>
-        <input type="datetime-local" name="jam_masuk" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ now()->setTimezone('T')->format('Y-m-dTh:m') }}">
-        <small id="emailHelp" class="form-text text-muted">example : Kaprodi</small>
+        <label for="contohInputEmail1">Jam Masuk</label>
+        <input type="datetime-local" name="jam_masuk" class="form-control" id="contohInputEmail1" aria-describedby="emailHelp" value="{{ now()->setTimezone('T')->format('Y-m-dTh:m') }}">
+        <small id="emailHelp" class="form-text text-muted">contoh : Tanggal / Jam</small>
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Jam Keluar</label>
-        <input type="datetime-local" name="jam_keluar" class="form-control" id="exampleInputPassword1" placeholder="Enter jam keluar">
-        <small id="emailHelp" class="form-text text-muted">example : 1000</small>
+        <label for="contohInputPassword1">Jam Keluar</label>
+        <input type="datetime-local" name="jam_keluar" class="form-control" id="contohInputPassword1" placeholder="Enter jam keluar">
+        <small id="emailHelp" class="form-text text-muted">contoh : Tanggal / Jam</small>
     </div>
     <div class="form-group">
         @php
         $data = 'M';
         @endphp
-        <label for="exampleInputPassword1">Keterangan</label>
+        <label for="contohInputPassword1">Keterangan</label>
         <br>
         <input type="radio" name="status" value="M" {{ $data === 'M' ? 'checked' : '' }}> Masuk
         <input type="radio" name="status" value="A" {{ $data === 'A' ? 'checked' : '' }}> Alpa
