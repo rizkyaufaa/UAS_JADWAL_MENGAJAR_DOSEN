@@ -33,6 +33,7 @@ Route::get('registration', [AuthController::class, 'registration'])->name('regis
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('dashboard', [AuthController::class, 'dashboard'])->middleware('auth', 'admin');
+Route::get('/kalender', 'CalendarController@index')->name('calendar');
 
 
 Route::middleware('auth', 'role:admin')->group(function () {
