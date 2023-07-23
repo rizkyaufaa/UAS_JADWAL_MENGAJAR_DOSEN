@@ -78,3 +78,8 @@ Route::middleware('auth', 'role:mahasiswa')->group(function () {
         Route::delete('/user/hapus/{user}', 'deleteUser')->name('deleteUser');
     });
 });
+
+
+Route::get('/calander', function () {
+    return view('admin/calander');
+});
