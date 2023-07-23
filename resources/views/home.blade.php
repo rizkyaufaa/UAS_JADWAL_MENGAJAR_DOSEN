@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
-    <title>My Bootstrap</title>
+    <title>Jadwal Mengajar Dosen</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -202,7 +202,7 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Lecturer Teaching Schedule</h1>
+                    <h1 class="fw-light">Jadwal Mengajar Dosen</h1>
                     <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
                     <p>
                         <a href="/login" class="btn btn-primary my-2">Login Page</a>
