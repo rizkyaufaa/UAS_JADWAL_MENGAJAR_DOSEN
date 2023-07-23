@@ -14,11 +14,12 @@
             line-height: 1.6;
             color: black;
             text-align: left;
-            background-color: pink;
+            background-color: #87B5D6;
         }
 
         .navbar-laravel {
             box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+            background-color: #28242e;
         }
 
         .navbar-brand,
