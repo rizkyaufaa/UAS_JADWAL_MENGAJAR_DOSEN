@@ -30,8 +30,8 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <span data-feather="shopping-cart" class="align-text-bottom"></span>
-                    Jadwal Dosen
+                    <span data-feather="calendar" class="align-text-bottom"></span>
+                    Jadwal
                 </a>
             </li>
 

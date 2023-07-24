@@ -203,7 +203,7 @@
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="fw-light">Jadwal Mengajar Dosen</h1>
-                    <p class="lead text-body-secondary">Jadwal Dosen Universitas Muhammadiyah Pontianak.</p>
+                    <p class="lead text-body-secondary">Universitas Muhammadiyah Pontianak</p>
                     <p>
                         <a href="/login" class="btn btn-primary my-2">Halaman Login</a>
                         
@@ -215,8 +215,10 @@
     </main>
 </body>
 
-<body style="background-color: #87B5D6;">
+<body style="background-color: #0D5354">
 
 </body>
+
+
 
 </html>
