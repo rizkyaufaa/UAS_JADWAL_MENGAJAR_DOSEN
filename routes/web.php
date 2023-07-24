@@ -84,3 +84,4 @@ Route::middleware('auth', 'role:mahasiswa')->group(function () {
 Route::get('/calander', function () {
     return view('admin/calander');
 });
+
