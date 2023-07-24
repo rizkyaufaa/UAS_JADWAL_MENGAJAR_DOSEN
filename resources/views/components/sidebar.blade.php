@@ -28,6 +28,12 @@
                     Jabatan
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                    Jadwal Dosen
+                </a>
+            </li>
 
 
         </ul>
