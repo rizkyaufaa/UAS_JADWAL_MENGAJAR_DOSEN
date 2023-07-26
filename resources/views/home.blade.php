@@ -188,7 +188,7 @@
             <div class="container">
                 <a href="#" class="navbar-brand d-flex align-items-center">
                     
-                    <strong>Jadwal Mengajar Dosen</strong>
+                    <strong>Universitas Muhammadiyah Pontianak</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -202,8 +202,8 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Jadwal Mengajar Dosen</h1>
-                    <p class="lead text-body-secondary">Universitas Muhammadiyah Pontianak</p>
+                    <h1 class="fw-light text-white">Jadwal Mengajar Dosen</h1>
+                    <p class="lead text-white">Universitas Muhammadiyah Pontianak</p>
                     <p>
                         <a href="/login" class="btn btn-primary my-2">Halaman Login</a>
                         
