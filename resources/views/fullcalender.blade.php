@@ -76,7 +76,7 @@ $(document).ready(function () {
                                 },
                                 type: "POST",
                                 success: function (data) {
-                                    displayMessage("Event Created Successfully");
+                                    displayMessage("Jadwal berhasil ditambahkan");
   
                                     calendar.fullCalendar('renderEvent',
                                         {
@@ -107,12 +107,12 @@ $(document).ready(function () {
                             },
                             type: "POST",
                             success: function (response) {
-                                displayMessage("Event Updated Successfully");
+                                displayMessage("Jadwal berhasil diperbarui");
                             }
                         });
                     },
                     eventClick: function (event) {
-                        var deleteMsg = confirm("Do you really want to delete?");
+                        var deleteMsg = confirm("Apakah anda yakin ingin menghapus jadwal?");
                         if (deleteMsg) {
                             $.ajax({
                                 type: "POST",
@@ -123,7 +123,7 @@ $(document).ready(function () {
                                 },
                                 success: function (response) {
                                     calendar.fullCalendar('removeEvents', event.id);
-                                    displayMessage("Event Deleted Successfully");
+                                    displayMessage("Jadwal berhasil dihapus");
                                 }
                             });
                         }
