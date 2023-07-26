@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\JabatanController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\KehadiranController;
+use App\Http\Controllers\FullCalenderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -83,5 +84,10 @@ Route::middleware('auth', 'role:mahasiswa')->group(function () {
 
 Route::get('/calander', function () {
     return view('admin/calander');
+});
+
+Route::controller(FullCalenderController::class)->group(function(){
+    Route::get('fullcalender', 'index');
+    Route::post('fullcalenderAjax', 'ajax');
 });
 

@@ -29,7 +29,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="fullcalender">
                     <span data-feather="calendar" class="align-text-bottom"></span>
                     Jadwal
                 </a>
