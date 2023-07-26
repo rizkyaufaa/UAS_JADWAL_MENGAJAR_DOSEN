@@ -18,12 +18,15 @@
 <?php 
 $url = isset($_SERVER['HTTP_REFERER']) ? htmlspecialchars($_SERVER['HTTP_REFERER']) : ''; 
 ?>
-<a class="nav-link" href="<?=$url?>">Go Back PHP</a>
-    
-<div class="container">
-    <h1>Jadwal Mengajar Dosen</h1>
-    <div id='calendar'></div>
-</div>
+<a class="nav-link" href="<?=$url?>">Kembali</a>
+
+
+    <div class="container">
+        <h1>Jadwal Mengajar Dosen</h1>
+        <div id='calendar'></div>
+    </div>
+
+
   
 <script type="text/javascript">
   
