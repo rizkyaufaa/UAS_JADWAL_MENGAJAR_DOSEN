@@ -18,7 +18,7 @@
 <?php 
 $url = isset($_SERVER['HTTP_REFERER']) ? htmlspecialchars($_SERVER['HTTP_REFERER']) : ''; 
 ?>
-<a href="<?=$url?>">Go Back PHP</a>
+<a class="nav-link" href="<?=$url?>">Go Back PHP</a>
     
 <div class="container">
     <h1>Jadwal Mengajar Dosen</h1>
