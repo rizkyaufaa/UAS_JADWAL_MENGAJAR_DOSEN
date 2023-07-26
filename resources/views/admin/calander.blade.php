@@ -2,6 +2,7 @@
 @section('title')
 @endsection
 @extends('components.sidebar')
+
 @section('konten')
 
 
@@ -21,8 +22,7 @@
 
                     <table class="table table-bordered">
                         <thead>
-                            <th width="125">Time</th>
-                            <th>day</th>
+                       
                         </thead>
                         <tbody>
                                 <tr>
