@@ -18,11 +18,16 @@
 <?php 
 $url = isset($_SERVER['HTTP_REFERER']) ? htmlspecialchars($_SERVER['HTTP_REFERER']) : ''; 
 ?>
-<a class="nav-link" href="<?=$url?>">Kembali</a>
 
 
-    <div class="container">
-        <h1>Jadwal Mengajar Dosen</h1>
+<button style="border-radius: 10px;">
+    <a class="nav-link " href="<?=$url?>" >Kembali</a>
+</button>
+
+
+    <div class="container text-center" style="background: radial-gradient(#FFFFFF, #DCDCDC); ;">
+       
+            <h1>Jadwal Mengajar Dosen</h1>
         <div id='calendar'></div>
     </div>
 
